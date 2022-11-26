@@ -1,0 +1,80 @@
+.body {
+  font-family: Roboto, sans-serif;
+}
+
+.navbar {
+  background-color: #0b7dd4;
+}
+
+#cabecalho .nav .nav-link.active {
+  background-color: #fff;
+  color: #0b7dd4;
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-games .nav-link.active:hover {
+  color: #fff;
+}
+
+.navbar-toggler {
+  background-color: #a4efef;
+}
+
+.section-title {
+  font-family: "Press Start 2P", cursive;
+  font-size: 1rem;
+}
+
+#sobre-a-loja,
+#nossos-games {
+  background-color: #a4efef;
+}
+
+.text-colored {
+  color: #0b7dd4;
+}
+
+.nav-games .nav-link.active,
+#contato button {
+  background-color: #0b7dd4;
+  color: #fff;
+}
+
+.nav-games .nav-link:hover {
+  color: #0b7dd4;
+}
+
+.social-links li {
+  list-style: none;
+  display: inline;
+}
+
+.social-links a {
+  text-decoration: none;
+}
+
+label.error {
+  font-weight: bold;
+  font-style: italic;
+  color: #fff;
+  background-color: rgb(236, 72, 72);
+  padding: 10px;
+  margin-top: 8px;
+  border-radius: 7px;
+  width: 100%;
+  text-align: center;
+}
+
+@media (max-width: 767px) {
+  h3.section-title,
+  h2.section-title {
+    font-size: 12px;
+    text-align: center;
+  }
+
+  ul.social-links {
+    text-align: center;
+  }
+}
